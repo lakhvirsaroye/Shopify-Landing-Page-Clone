@@ -1,0 +1,93 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: url("Wave BG.png") no-repeat;
+  background-size: 1600px 700px;
+}
+
+.container {
+  color: white;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.headings {
+  padding: 20px 10px;
+}
+h1 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 3rem;
+  opacity: 0.8;
+  font-weight: 100;
+}
+
+#email {
+  padding: 12px 10px;
+  width: 20%;
+  border-radius: 7px;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+button {
+  border: none;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  padding: 12px 30px;
+  margin-left: 20px;
+  border-radius: 7px;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: 1px 1px 10px rgb(160, 160, 151);
+}
+button:hover {
+  /* box-shadow: 1px 1px 10px rgb(111, 121, 82); */
+  background-color: black;
+  color: azure;
+}
+.para {
+  display: block;
+  margin: 0 33%;
+  width: 510px;
+}
+.para p {
+  text-align: center;
+  margin-top: 10px;
+  opacity: 0.6;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+}
+img {
+  width: 300px;
+  margin-top: 30px;
+}
+.boxes {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.left {
+  width: 400px;
+}
+
+.center {
+  width: 400px;
+}
+
+.right {
+  width: 400px;
+}
+.boxes p {
+  padding: 10px 5px;
+}
+.boxes img {
+  width: 50px;
+}
